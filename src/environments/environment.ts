@@ -9,6 +9,6 @@ export const environment = {
     messagingSenderId: '421082038802',
   },
 
-    production: false,
+
     URL: 'https://backend-iedf.onrender.com'
   }; 

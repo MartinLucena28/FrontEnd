@@ -8,12 +8,12 @@
 			  <div class="mb-md-5 mt-md-4 pb-5">
   
 				<h2 class="fw-bold mb-2 text-uppercase">Login</h2>
-				<p class="text-white-50 mb-5">Por favor, ingresar usuario y clave</p>
+				<p class="text-white-50 mb-5">ingresar usuario y clave</p>
   
 				<form #f="ngForm"(ngSubmit)="onLogin()" novalidate>
   
 				  <div class="form-outline form-white mb-4">
-					<input type="email"name="nombreUsuario" id="nombreUsuario" class="form-control form-control-lg" [(ngModel)]="nombreUsuario"name="nombreUsuario" required />
+					<input type="user"name="nombreUsuario" id="nombreUsuario" class="form-control form-control-lg" [(ngModel)]="nombreUsuario"name="nombreUsuario" required />
 					<label class="form-label" for="nombreUsuario">Usuario</label>
 				  </div>
   
@@ -32,8 +32,7 @@
 			  </div>
   
 			  <div>
-				<p class="mb-0">¿No tienes una cuenta? <a href="#!" class="text-white-50 fw-bold">Sign Up</a>
-				</p>
+				<p class="mb-0">Por defecto usuario: admin y contraseña: admin</p>
 			  </div>
   
 			</div>
