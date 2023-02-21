@@ -1,4 +1,4 @@
-<div class="container" *ngIf="persona">
+<div class="container" *ngIf="persona" >
     <div class="row vh-100 gradient-custom">
         <div class= "row d-flex justify-content-center align-items-center h-100">
             <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
@@ -16,10 +16,10 @@
                 </div>
                 <div class="form-group">
                     <label for="img">Imagen</label>
-                    <input type="file" class="form-control" id="img" name="img"> (change)="uploadImage($event)" accept=".jpg, .jepg, .png">
+                    <input type="file" class="form-control" id="img" name="img" (change)="uploadImage($event)" accept=".jpg, .jepg, .png">
                 </div>
                 <div class ="imagen">
-<img [src]="imageService.url" width="200px">
+<img [src]="persona.img" width="200px">
                 </div>
                 <br>
                 <button class="btn btn-primary">

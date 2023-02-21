@@ -11,9 +11,8 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
 })
 export class AuthService {
 
-  URL = environment.URL+'/auth/';
+  URL = environment.URL +'/auth/';
 
- 
   constructor(private httpClient: HttpClient) { }
 
  public nuevo(nuevoUsuario: NuevoUsuario): Observable<any>{

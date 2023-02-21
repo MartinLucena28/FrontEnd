@@ -24,10 +24,10 @@ ngOnInit(): void {
        this.router.navigate(['']);
   
 })}
-onUpdate(){const id = this.activatedRouter.snapshot.params['id'];
+onUpdate(){const id= this.activatedRouter.snapshot.params['id'];
 this.persona.img =this.imageService.url
 this.personaService.update(id, this.persona).subscribe(
-  data => {
+  data =>{
     this.router.navigate(['']);
   }, err => {
     alert("Error al modificar la persona");
