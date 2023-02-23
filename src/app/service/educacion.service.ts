@@ -9,7 +9,7 @@ import { Educacion } from '../model/educacion';
 })
 export class EducacionService {
   
-  URL = environment.URL + '/educacion/';
+  URL = 'https://backend-iedf.onrender.com/educacion/';
   constructor(private httpClient : HttpClient) { }
 
   public lista(): Observable<Educacion[]>{

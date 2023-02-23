@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class PersonaService {
-URL = environment.URL + '/personas/';
+URL = 'https://backend-iedf.onrender.com/personas/';
 
   constructor(private httpClient: HttpClient) { }
 
