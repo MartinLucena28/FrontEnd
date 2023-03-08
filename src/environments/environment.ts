@@ -9,6 +9,6 @@ export const environment = {
     messagingSenderId: '421082038802',
   },
 
-URL: 'http://localhost:8080'
-    //URL: 'https://backend-iedf.onrender.com'
+//URL: 'http://localhost:8080'
+    URL: 'https://cml.onrender.com'
   }; 

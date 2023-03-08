@@ -11,7 +11,7 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
 })
 export class AuthService {
 
-  URL = 'https://backend-iedf.onrender.com/auth';
+  URL = environment.URL + '/auth';
 
   constructor(private httpClient: HttpClient) { }
 
