@@ -11,7 +11,7 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
 })
 export class AuthService {
 
-  URL = environment.URL + '/auth';
+  URL = 'https://backend-production-e282.up.railway.app/auth';
 
   constructor(private httpClient: HttpClient) { }
 

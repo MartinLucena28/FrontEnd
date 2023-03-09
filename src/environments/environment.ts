@@ -10,5 +10,6 @@ export const environment = {
   },
 
 //URL: 'http://localhost:8080'
-    URL: 'https://cml.onrender.com'
+    //URL: 'https://cml.onrender.com'
+    URL: 'https://backend-production-e282.up.railway.app'
   }; 
